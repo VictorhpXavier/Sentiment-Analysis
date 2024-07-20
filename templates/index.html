@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sentiment Analysis</h1>
+        <form action="/analyze" method="post">
+            <textarea name="text" placeholder="Enter text here..." required></textarea>
+            <div class="button-container">
+                <button>Analyze</button>
+            </div>
+        </form>
+        {% if result %}
+            <div class="result">{{ result }}</div>
+        {% endif %}
+        
+    </div>
+</body>
+</html>
