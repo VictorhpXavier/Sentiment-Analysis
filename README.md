@@ -1,6 +1,6 @@
 # **Sentiment Analysis**
 
-Sentiment Analysis is a web application that utilizes a trained model to predict whether a given text is positive, negative, or neutral.
+Sentiment Analysis is a basic app to predict whether a given text is positive, negative, or neutral.
 
 ## **How to Use Sentiment Analysis**
 
